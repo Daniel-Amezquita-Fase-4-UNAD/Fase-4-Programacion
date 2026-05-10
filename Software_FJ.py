@@ -124,7 +124,7 @@ class TipoDocumento(Enum):
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# CLASE ABSTRACTA BASE — EntidadSistema
+# CLASE ABSTRACTA BASE 
 # ─────────────────────────────────────────────────────────────────────────────
 
 class EntidadSistema(abc.ABC):
