@@ -1,0 +1,25 @@
+2026-05-12 18:04:37 | INFO     | SoftwareFJ | === Sistema Software FJ iniciado ===
+2026-05-12 18:07:12 | INFO     | SoftwareFJ | === Sistema Software FJ iniciado ===
+2026-05-12 18:07:12 | INFO     | SoftwareFJ | Cliente creado: Laura Martínez <laura@softwarefj.com>
+2026-05-12 18:07:12 | INFO     | SoftwareFJ | Cliente creado: Carlos Pérez <cperez@empresa.co>
+2026-05-12 18:07:12 | INFO     | SoftwareFJ | Servicio registrado: [32158CFB] Sala Innovación — $120000.00
+2026-05-12 18:07:12 | INFO     | SoftwareFJ | Servicio registrado: [9A8F5E08] Proyector Epson EB-X51 — $80000.00
+2026-05-12 18:07:12 | INFO     | SoftwareFJ | Servicio registrado: [094CD05E] Asesoría Cloud AWS — $250000.00
+2026-05-12 18:07:12 | INFO     | SoftwareFJ | Servicio agregado al catálogo: Sala Innovación
+2026-05-12 18:07:12 | INFO     | SoftwareFJ | Servicio agregado al catálogo: Proyector Epson EB-X51
+2026-05-12 18:07:12 | INFO     | SoftwareFJ | Servicio agregado al catálogo: Asesoría Cloud AWS
+2026-05-12 18:07:12 | INFO     | SoftwareFJ | Servicio registrado: [6A24D536] Dron DJI Mini — $300000.00
+2026-05-12 18:07:12 | INFO     | SoftwareFJ | Reserva [2FEEEEB5] creada | Cliente: Laura Martínez | Servicio: Sala Innovación | 120 min
+2026-05-12 18:07:12 | INFO     | SoftwareFJ | Reserva [2FEEEEB5] CONFIRMADA | Total: $257,040.00
+2026-05-12 18:07:12 | DEBUG    | SoftwareFJ | Intento de confirmación finalizado para reserva [2FEEEEB5]
+2026-05-12 18:07:12 | INFO     | SoftwareFJ | Reserva [BB17BE74] creada | Cliente: Carlos Pérez | Servicio: Asesoría Cloud AWS | 180 min
+2026-05-12 18:07:12 | INFO     | SoftwareFJ | Reserva [BB17BE74] CONFIRMADA | Total: $1,218,262.50
+2026-05-12 18:07:12 | DEBUG    | SoftwareFJ | Intento de confirmación finalizado para reserva [BB17BE74]
+2026-05-12 18:07:12 | INFO     | SoftwareFJ | Reserva [BB17BE74] COMPLETADA
+2026-05-12 18:07:12 | DEBUG    | SoftwareFJ | Intento de confirmación finalizado para reserva [2FEEEEB5]
+2026-05-12 18:07:12 | INFO     | SoftwareFJ | Reserva [DBBFC12D] creada | Cliente: Laura Martínez | Servicio: Sala Innovación | 60 min
+2026-05-12 18:07:12 | WARNING  | SoftwareFJ | Reserva [DBBFC12D] CANCELADA | Motivo: Cliente solicitó reagendamiento
+2026-05-12 18:07:12 | WARNING  | SoftwareFJ | Servicio desactivado: Proyector Epson EB-X51
+2026-05-12 18:07:12 | ERROR    | SoftwareFJ | Error al crear reserva: [ERR_SERVICIO] El servicio 'Proyector Epson EB-X51' no está disponible actualmente. (18:07:12)
+2026-05-12 18:07:12 | INFO     | SoftwareFJ | Reserva [78E8B3C0] creada | Cliente: Laura Martínez | Servicio: Sala Innovación | 90 min
+2026-05-12 18:07:12 | DEBUG    | SoftwareFJ | Intento de confirmación finalizado para reserva [78E8B3C0]
