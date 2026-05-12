@@ -1,2 +1,7 @@
-# Fase-4---Programaci-n
-.
+# Fase_4_Programación
+Sistema de Gestión de Servicios — Software FJ
+Proyecto universitario desarrollado en Python que implementa un sistema integral de gestión de clientes, servicios y reservas para una empresa ficticia llamada Software FJ. El sistema aplica de forma rigurosa los principios de la Programación Orientada a Objetos: abstracción, herencia, polimorfismo y encapsulación, sin hacer uso de bases de datos; toda la información se gestiona en memoria mediante objetos y listas.
+El proyecto incluye una jerarquía de clases bien definida, con clases abstractas base, una clase Cliente con validaciones estrictas, y tres tipos de servicios especializados (ReservaSala, AlquilerEquipo, AsesoriaEspecializada) que heredan de una clase abstracta Servicio. Las reservas integran cliente, servicio, duración y estado, con un ciclo de vida completo: creación, confirmación, completación y cancelación.
+Como parte del diseño, se implementó un sistema robusto de manejo de excepciones personalizadas, con bloques try/except/else/finally y encadenamiento de excepciones, garantizando que la aplicación permanezca estable ante entradas inválidas o situaciones inesperadas. Todos los eventos y errores quedan registrados automáticamente en un archivo de logs.
+Tecnologías: Python 3 · Módulos: abc, logging, uuid, enum, re, datetime
+Conceptos aplicados: Clases abstractas · Herencia · Polimorfismo · Encapsulación · Excepciones personalizadas · Manejo avanzado de errores · Registro de evento
